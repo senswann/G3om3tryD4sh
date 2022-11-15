@@ -5,7 +5,7 @@ public class Scroller : MonoBehaviour
 {
     //loop image variable
     [SerializeField] private RawImage img;
-    private float speed = 0.15f;
+    [SerializeField] private float speed = 0.15f;
 
     //color change variable
     [SerializeField] [Range(0f,1f)]float lerpTime;

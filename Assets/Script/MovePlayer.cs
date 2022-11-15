@@ -6,7 +6,7 @@ public class MovePlayer : MonoBehaviour
     Rigidbody2D rb;
     public SpriteRenderer graphics;
     Animator animator;
-    Transform transform;
+    Transform transforms;
 
     public float speed = 5f;
     private float verticalMovement;
@@ -28,7 +28,7 @@ public class MovePlayer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         graphics = GetComponent<SpriteRenderer>();
-        transform = GetComponent<Transform>();
+        transforms = GetComponent<Transform>();
     }
     public void OnJump(InputAction.CallbackContext context)
     {
@@ -46,13 +46,13 @@ public class MovePlayer : MonoBehaviour
 
         if (isGrounding)
         {
-            rotate = transform.rotation.eulerAngles;
+            rotate = transforms.rotation.eulerAngles;
             rotate.z = Mathf.Round(rotate.z / 90) * 90;
-            transform.rotation = Quaternion.Euler(rotate);
+            transforms.rotation = Quaternion.Euler(rotate);
         }
         else
         {
-            transform.Rotate(Vector3.forward * 425 * Time.deltaTime);
+            transforms.Rotate(Vector3.forward * 425 * Time.deltaTime);
         }
 
     }
@@ -61,11 +61,11 @@ public class MovePlayer : MonoBehaviour
     {
         if (onJump)
         {
-            verticalMovement = 3.5f;
+            if(current_timer==0)
+                verticalMovement = 3.5f;
             current_timer++;
             if (current_timer>10)
             {   
-                Debug.Log(verticalMovement);
                 verticalMovement -= 0.7f;
             }
             if (current_timer >= timer)

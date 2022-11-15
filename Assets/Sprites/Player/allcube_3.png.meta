@@ -1,0 +1,1311 @@
+fileFormatVersion: 2
+guid: 0d605b19884e5bd44b99a4285cc5f2ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: allcube_3_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 557
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7fbf92c07c62141b7a419c79e0ec0e
+      internalID: -1628517434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 557
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3d62f68d7fd9f4db7a7e828041c93d
+      internalID: -93865747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 557
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6df12a5f5b01b44b67f251697213bd
+      internalID: -1334205195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 557
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fda830041b642c4b9f3be867dd61b13
+      internalID: -1278320500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 557
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f190d304e7e49d547b8ca41d63bd9bec
+      internalID: -1179456112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 557
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d322cc1df306440a6f6915f4fe7f93
+      internalID: 1142379587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_6
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 557
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b3237bb6f5420429c710d145dd894b
+      internalID: -1252275861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_7
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 557
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5a81932c8e1274ebdb3cf063f0d3f5
+      internalID: -1997530009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_8
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 557
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fb70bdd6818154b8d7637439e9ed92
+      internalID: -1935457744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_9
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 557
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0524b5929296004f87b29ff510085fc
+      internalID: 2049514661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_10
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 557
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fc27eb5908bf34e989063412b68059
+      internalID: 1651175937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_11
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 557
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b793d20df8b6a944959a793e859aef8
+      internalID: 200088714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287187de6d8f5bd4b8d731b6ba820b03
+      internalID: -1055413696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af5aa642f0d9c441b400a3396394583
+      internalID: 471442510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 420
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e310d5cb265534daac5b5a7329bb83
+      internalID: 481385825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aec9c224a12ddc40a4169434a6ff370
+      internalID: -1146024439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_16
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1327cdcdf3d1142b210f91127eedcc
+      internalID: 219004901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec0f587171a0284dbe14b015589f94f
+      internalID: -522456239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_18
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c67480865cb5048bc12ba8adf6f937
+      internalID: 1794155009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_19
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b45ec71af7ef6f449fdecde48fae422
+      internalID: 1426458847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_20
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 420
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fda824e6c08f54b96ade01f708326b
+      internalID: 1181123572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_21
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e651446cd70e1a448a91d171416147b
+      internalID: -1066902109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_22
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995ebbbb273f1f34ab91201058e378eb
+      internalID: -1396015560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_23
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 420
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8994d5714523b0a45a9ff4561a98da33
+      internalID: -227153500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 283
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a61e196340408a47b41d0108105ffa3
+      internalID: 871629160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 283
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9243f382379c30a4abeada2543717bce
+      internalID: 1347825712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_26
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 283
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0a72b2b59c28b45978b87668c72360
+      internalID: 1495683298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_27
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 283
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6343bd7e7747948839a5d0a00bfee8
+      internalID: -1651927489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_28
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 283
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0676e4ba176b0a4eaefbd28cbb89442
+      internalID: -1699908593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_29
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 283
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6583f9aaf33dd64283bffff52b86dda
+      internalID: -440803074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_30
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 284
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee53b5d629e42b40b5714492c8cffca
+      internalID: -1172798974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_31
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 283
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8a90696aaa4f84cbff8b64a5c1f006
+      internalID: 1487174715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_32
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 283
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c4824b1fe875e4980caeaa4129a5c8
+      internalID: -2147404060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_33
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 283
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4b167914dc4ca4da50619721844a99
+      internalID: 1807203160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_34
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 283
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf4a113b669fdb47a46e10e8b5d37af
+      internalID: -288718342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_35
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 283
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc18916b46cd5834d98f31eb6c9e823a
+      internalID: -1726138014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 146
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e6dd4e6cf6da64d8ee930bea7455ee
+      internalID: -512931688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 146
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa965f1a61a6d94d853e94e9f80ee5a
+      internalID: 616274390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_38
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 146
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be11fe5e9d2fb74429e461d03a6f253d
+      internalID: -900758753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_39
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 146
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0351cda883aef49b594cbc0b50f171
+      internalID: -2092348332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_40
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 146
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc5d2c2281d05b4bb7a762de2c54175
+      internalID: -1159510623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_41
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 146
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d335c5997073b24c9908d5a1ada444b
+      internalID: 1287581460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_42
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 146
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8af904a13f240845b8f4b9a2c4ac3f3
+      internalID: -1390245490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_43
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 146
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b31284e120e2545ae67596f98c820c
+      internalID: -9065896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_44
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 146
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf40653cec038d94899f3b88fd2cb232
+      internalID: -451389627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_45
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 146
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cd9f353ef9cca40962b249ed26a5a9
+      internalID: 152796012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_46
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 146
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42d1f2b6a4d05040aaefa7d5e035770
+      internalID: 786154530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_47
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 146
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14175c6bef312ea41b122c89c0e4dfe9
+      internalID: 2147112802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45d44f3632e1bd489408cef4988292b
+      internalID: 1221057537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_49
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff699952405246418e00173138ef7a6
+      internalID: 1233886025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_50
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b342c59242ac912499ee95652ffbe0c3
+      internalID: -1081364420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_51
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827e8ee549c060248940f486972f56be
+      internalID: -1304554595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_52
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 10
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff0c81717248b8468b7b87a8b2bb6cc
+      internalID: -1151653790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allcube_3_53
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 10
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ac84c3b7c5169469c4270afc14fb2f
+      internalID: 1437944750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      allcube_3_41: 1287581460
+      allcube_3_33: 1807203160
+      allcube_3_10: 1651175937
+      allcube_3_42: -1390245490
+      allcube_3_23: -227153500
+      allcube_3_46: 786154530
+      allcube_3_4: -1179456112
+      allcube_3_11: 200088714
+      allcube_3_44: -451389627
+      allcube_3_1: -93865747
+      allcube_3_37: 616274390
+      allcube_3_53: 1437944750
+      allcube_3_43: -9065896
+      allcube_3_5: 1142379587
+      allcube_3_9: 2049514661
+      allcube_3_21: -1066902109
+      allcube_3_15: -1146024439
+      allcube_3_8: -1935457744
+      allcube_3_13: 471442510
+      allcube_3_31: 1487174715
+      allcube_3_19: 1426458847
+      allcube_3_29: -440803074
+      allcube_3_22: -1396015560
+      allcube_3_28: -1699908593
+      allcube_3_48: 1221057537
+      allcube_3_36: -512931688
+      allcube_3_50: -1081364420
+      allcube_3_20: 1181123572
+      allcube_3_3: -1278320500
+      allcube_3_0: -1628517434
+      allcube_3_12: -1055413696
+      allcube_3_26: 1495683298
+      allcube_3_47: 2147112802
+      allcube_3_49: 1233886025
+      allcube_3_40: -1159510623
+      allcube_3_34: -288718342
+      allcube_3_52: -1151653790
+      allcube_3_32: -2147404060
+      allcube_3_17: -522456239
+      allcube_3_27: -1651927489
+      allcube_3_39: -2092348332
+      allcube_3_30: -1172798974
+      allcube_3_38: -900758753
+      allcube_3_45: 152796012
+      allcube_3_18: 1794155009
+      allcube_3_2: -1334205195
+      allcube_3_24: 871629160
+      allcube_3_35: -1726138014
+      allcube_3_16: 219004901
+      allcube_3_51: -1304554595
+      allcube_3_14: 481385825
+      allcube_3_7: -1997530009
+      allcube_3_25: 1347825712
+      allcube_3_6: -1252275861
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
