@@ -1,6 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class MultipleLayerSprite : MonoBehaviour
 {
@@ -12,6 +12,10 @@ public class MultipleLayerSprite : MonoBehaviour
     [SerializeField] private Sprite[] skinFirst;
     [SerializeField] private Sprite[] skinSecond;
     [SerializeField] private Sprite[] skinThird;
+
+    public GameObject lights;
+    public PlayerInput player;
+    private Color currentColor;
 
     private Animator animator;
     int indexAnim = 0;
@@ -31,14 +35,21 @@ public class MultipleLayerSprite : MonoBehaviour
 
     public void Death()
     {
+        currentColor = first.color;
+        first.color = Color.white;
+        lights.SetActive(false);
+        player.enabled = false;
         second.enabled = false;
         third.enabled = false;
-        indexAnim = Random.Range(1, 12);
-        animator.SetInteger("Death", 1);
+        indexAnim = Random.Range(1, 10);
+        animator.SetInteger("Death", indexAnim);
     }
 
     public void Restart()
     {
+        first.color = currentColor;
+        lights.SetActive(true);
+        player.enabled = true;
         second.enabled = true;
         third.enabled = true;
         indexAnim = 0;

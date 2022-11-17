@@ -52,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -136,7 +136,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -228,7 +228,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -348,6 +348,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 1836ab74-df62-4c1e-9b16-ca4e1ae4d47f
     m_ActionName: Player/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 64108ac8-8d19-46a4-bd2f-744e69346e8d
+    m_ActionName: Player/Menu[/Keyboard/tab]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -594,3 +598,5 @@ MonoBehaviour:
   - {fileID: -1304554595, guid: 0d605b19884e5bd44b99a4285cc5f2ed, type: 3}
   - {fileID: -1151653790, guid: 0d605b19884e5bd44b99a4285cc5f2ed, type: 3}
   - {fileID: 1437944750, guid: 0d605b19884e5bd44b99a4285cc5f2ed, type: 3}
+  lights: {fileID: 0}
+  player: {fileID: 8884969370514705573}

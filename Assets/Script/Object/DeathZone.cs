@@ -19,6 +19,7 @@ public class DeathZone : MonoBehaviour
         collision.GetComponent<MultipleLayerSprite>().Death();
         yield return new WaitForSeconds(1f);
         collision.GetComponent<MultipleLayerSprite>().Restart();
+        collision.transform.position = new Vector3(-4.4f, -2.9f,0f);
         collision.GetComponent<Rigidbody2D>().gravityScale = 30.0f;
         PlatformScript.speed = 5.0f;
         Scroller.speed = 0.15f;
