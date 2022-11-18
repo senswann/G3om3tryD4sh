@@ -13,16 +13,14 @@ public class Scroller : MonoBehaviour
     int colorIndex = 0;
     int colorsLength { get { return colors.Length; }}
     float t = 0;
-    [SerializeField] private bool isPlatform;
 
     private void FixedUpdate()
     {
-        //loop image
+        //code s'occupent de loop l'image du background
         img.uvRect = new Rect(img.uvRect.position+new Vector2(speed, 0) *Time.fixedDeltaTime, img.uvRect.size);
 
-        //color change
-        if(!isPlatform)
-            img.color = Color.Lerp(img.color, colors[colorIndex], lerpTime*Time.fixedDeltaTime);
+        //code permettant de changer la couleur du temps en fonction du temps et suivant l'interpolation linéaire
+        img.color = Color.Lerp(img.color, colors[colorIndex], lerpTime*Time.fixedDeltaTime);
         t = Mathf.Lerp(t, 1f, lerpTime*Time.fixedDeltaTime);
         if (t > .9f)
         {
