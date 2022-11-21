@@ -20,15 +20,17 @@ public class DeathZone : MonoBehaviour
     {
         PlatformScript.speed = 0.0f;
         Scroller.speed = 0.0f;
+        collision.GetComponent<BoxCollider2D>().enabled = false;
         collision.GetComponent<Rigidbody2D>().gravityScale = 0.0f;
         collision.GetComponent<MultipleLayerSprite>().Death();
         AudioManager.instance.PlayClipAt(sound, collision.transform.position);
         yield return new WaitForSeconds(1f);
+        collision.GetComponent<BoxCollider2D>().enabled = true;
         collision.GetComponent<MultipleLayerSprite>().Restart();
         GameManager.instance.ReplaceWord();
         //collision.transform.position = new Vector3(-4.4f, -2.9f,0f);
-        collision.GetComponent<Rigidbody2D>().gravityScale = 30.0f;
-        PlatformScript.speed = 5.0f;
+        collision.GetComponent<Rigidbody2D>().gravityScale = 55.0f;
+        PlatformScript.speed = 11.0f;
         Scroller.speed = 0.15f;
     }
 }

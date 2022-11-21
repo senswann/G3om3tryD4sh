@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5981104555302222489}
   - component: {fileID: 5981104555302222468}
-  - component: {fileID: 5981104555302222471}
   - component: {fileID: 5981104555302222470}
+  - component: {fileID: 1666251153686245051}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5981104555302222488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.0512, y: -3.6253, z: -0.05481451}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b72ae80eb9aa54d419cca70aa88ff4e4, type: 3}
-  m_Color: {r: 0.82444817, g: 0.8632965, b: 0.9150943, a: 1}
+  m_Sprite: {fileID: 1617030263, guid: 39a7eec79c7198245b57ca07c688b3b3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -86,7 +86,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &5981104555302222471
+--- !u!114 &5981104555302222470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5981104555302222488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223301b0df6d405468aae1eb8298412d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: d93aef5d0f921814f8251dcc4ce581dd, type: 3}
+--- !u!60 &1666251153686245051
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103,7 +116,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.3, y: 0.6}
+    oldSize: {x: 1.1935484, y: 1.2258065}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -111,27 +124,27 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.07, y: 0.099999994}
-      - {x: 0.04, y: 0.26}
-      - {x: 0.02, y: 0.26999998}
-      - {x: -0.02, y: 0.26999998}
-      - {x: -0.03, y: 0.25}
-      - {x: -0.07, y: 0.099999994}
-      - {x: -0.14999999, y: -0.22}
-      - {x: -0.14999999, y: -0.29999998}
-      - {x: 0.14999999, y: -0.29999998}
-      - {x: 0.14999999, y: -0.19999999}
-      - {x: 0.14, y: -0.13}
---- !u!114 &5981104555302222470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5981104555302222488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 223301b0df6d405468aae1eb8298412d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: d93aef5d0f921814f8251dcc4ce581dd, type: 3}
+    - - {x: -0.032258064, y: 0.43548387}
+      - {x: -0.06451613, y: 0.41935483}
+      - {x: -0.4516129, y: -0.32258064}
+      - {x: -0.4516129, y: -0.40322578}
+      - {x: -0.43548387, y: -0.43548387}
+      - {x: 0.41935483, y: -0.43548387}
+      - {x: 0.41935483, y: -0.37096775}
+      - {x: 0.048387095, y: 0.43548387}
+    - - {x: -0.20967741, y: -0.30645162}
+      - {x: -0.19354838, y: -0.27419353}
+      - {x: -0.16129032, y: -0.30645162}
+      - {x: -0.09677419, y: -0.2580645}
+      - {x: -0.08064516, y: -0.27419353}
+      - {x: -0.048387095, y: -0.2580645}
+      - {x: -0.032258064, y: -0.27419353}
+      - {x: 0, y: -0.2580645}
+      - {x: 0.06451613, y: -0.29032257}
+      - {x: 0.08064516, y: -0.27419353}
+      - {x: 0.12903225, y: -0.29032257}
+      - {x: 0.16129032, y: -0.27419353}
+      - {x: 0.19354838, y: -0.30645162}
+      - {x: -0.12903225, y: -0.30645162}
+      - {x: -0.16129032, y: -0.32258064}
+      - {x: -0.17741935, y: -0.30645162}

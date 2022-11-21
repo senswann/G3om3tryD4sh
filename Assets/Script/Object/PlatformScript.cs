@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlatformScript : MonoBehaviour
 {
     //variable du déplacement de la platforme
-    static public float speed = 5.0f;
+    public static float speed = 11.0f;
     Rigidbody2D rb;
 
     void Start()

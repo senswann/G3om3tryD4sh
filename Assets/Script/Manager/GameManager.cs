@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
     public GameObject player;
     private Vector3 startPosPlat;
     private Vector3 startPosPlay;
+    public int coins = 0;
+    public int deathCount = 0;
 
     //variable d'instance du GameManager
     public static GameManager instance;
@@ -33,8 +35,23 @@ public class GameManager : MonoBehaviour
     //replacement du monde comme il était au début
     public void ReplaceWord()
     {
+        coins = 0;
+        deathCount++;
         AudioManager.instance.Reset();
         platform.transform.position = startPosPlat;
         player.transform.position = startPosPlay;
+        player.transform.rotation = Quaternion.identity;
+    }
+
+    public void PauseGame(bool isPause)
+    {
+        if (isPause)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
     }
 }

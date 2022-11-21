@@ -1,0 +1,3774 @@
+fileFormatVersion: 2
+guid: 39a7eec79c7198245b57ca07c688b3b3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 62
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 755
+        width: 154
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c7880f583701f44afe085c3823795d
+      internalID: 837084697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 657
+        width: 138
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a784a80ae39a5e439415ef432dfb04c
+      internalID: 1028805955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 701
+        width: 133
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e06dfe2a6411743ba173be4b633dd2
+      internalID: 550111725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 701
+        width: 133
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3fb185c956f5849872dd2ca90f688e
+      internalID: -1172733521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_4
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 732
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8a078849e454148aae505ac70c9af7
+      internalID: 918286574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_5
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 735
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afae46c34e9d4d4ca8fae885bd7d841
+      internalID: -1963212033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_6
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 731
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bf93143c82554408c996748b542e26
+      internalID: 62364907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_7
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 734
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162fcf86fd768024da312c3879893ce5
+      internalID: 1376507500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_8
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 700
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d4e40d09062e7458a5aec8a01d2272
+      internalID: 1631058881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 714
+        width: 138
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9fdb95dd8f9c040b0a590f3df6c101
+      internalID: -1571794733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 745
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4824d2dac43d454b9e8a8467d12a108
+      internalID: 1556421377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 580
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0d0806562b85e44aed7d356010ef60
+      internalID: 910190565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 692
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3580bc9ac4068de49bf2338e9f6ef6ce
+      internalID: 1314967351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_13
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 622
+        width: 131
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f8f09a8731a6f49b57637f3ec1935e
+      internalID: 367593471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_14
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 583
+        width: 132
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8075691aa3b906f40b1d45c84b7318cd
+      internalID: -582736026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_15
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 650
+        width: 131
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccef6f79949beb446a66955f900895c4
+      internalID: -1241998782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_16
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 648
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf5c926ba7305f41a752af111ec4ec9
+      internalID: 970698978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 665
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6807fc24b5236b142a372bd360643f2f
+      internalID: 265755281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_18
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 642
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f28d5cbaff75014c823aadc924a5a62
+      internalID: 1943658737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_19
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 534
+        width: 122
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70edd8452289e784cab4bfe08eab5b8d
+      internalID: -1647346787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_20
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 530
+        width: 124
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6b62815aef3a543900360b24c74d92
+      internalID: 873152674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_21
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 557
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4810db00e0059439f0d91f22907b20
+      internalID: 475889550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 626
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f0e49c227d7d64985f80cc21411a49
+      internalID: -644335001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_23
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 608
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c272ce086731446b026f6fd09d9afd
+      internalID: -1630248393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_24
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 597
+        width: 102
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d6b42db4fb7eb4bae36d51f3c8cc66
+      internalID: 2054213095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_25
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 542
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7a19714c9f90043904d017c590ef87
+      internalID: 396524281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 591
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3eb34dd89c0c2429562fdb682a1d95
+      internalID: -1511907533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 497
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ae33663f5c7604fb5094dd28e05e49
+      internalID: 2071529568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 581
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f3d0ca558422a429d16c06f9fef476
+      internalID: 487290341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 508
+        width: 114
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3041c589eb9a1ed4bbed3a4fd0857ada
+      internalID: 1405858923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_30
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 509
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb9a987c09a37f44921cc082b5a3c26
+      internalID: -215112070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_31
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 485
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340b28741d0de294482763ecedf944ee
+      internalID: -731047380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_32
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 570
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90da25cf71b3db40820028829a3ce7f
+      internalID: -32876750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_33
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 559
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e08da3e73e4fc14aa5c72c92ce14a5f
+      internalID: 181824976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_34
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 544
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d1f54185da2e541bbac82694827a3d
+      internalID: 1591615804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_35
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 469
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92721c1d31cd54940a1639ff61394b9b
+      internalID: -663550592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_36
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 461
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc5e60e29f25f9458e8a8f49bb7f315
+      internalID: 2004764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_37
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 534
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9180960123012498d2586a1dd90f59
+      internalID: 659477984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 107
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438fa67a3a0e5334dbfffdaec76b81cc
+      internalID: 1736175954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_39
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 434
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c837b45fb00a0194cbeb5c8e661e142b
+      internalID: 211545549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_40
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 436
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6703d6a54f5b4e943ae2eebdfaf6fc61
+      internalID: 1291801730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_41
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 470
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea125e22ae131a34f90119e14912833c
+      internalID: -345174429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 403
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1596daea4fe80c44b5519884964a3f4
+      internalID: -331486628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_43
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 392
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5296b85bc52e85744bdf0c036574eb12
+      internalID: -378730593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_44
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 467
+        width: 10
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cfc1dfd7f73a1479128ba95cffbe55
+      internalID: -50391099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_45
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 454
+        width: 14
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2a272e47e6a0441b667fabf2f97f8a
+      internalID: 977099548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_46
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 444
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034046a079f7f8f4cba9c4ba983a4239
+      internalID: -1764620846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_47
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 480
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac77de7f3eccf654bb9a6404f46771fd
+      internalID: 1351695441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_48
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 406
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49aa8b79e4a87b47aa8a2d5d5c9ef71
+      internalID: -1016140824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_49
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 406
+        width: 11
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cf9c69e6e3c594c917dc5a8f258848
+      internalID: 1950559284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_50
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 404
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2ba0a441eacf448bc708a9fc3cfdc8
+      internalID: 2019691095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_51
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 394
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2400fe03a2906854182215d85876d9d8
+      internalID: 1707012728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_52
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 359
+        width: 86
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea7759cde381d84ca64d830fd6834f7
+      internalID: -1243760051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_53
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 435
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefdae9a8dcf6624ca5f8439d2c76dda
+      internalID: 1213531994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_54
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 385
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739fa44630698a548b3b2c34dde23960
+      internalID: -498844147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_55
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 91
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3339a9157168fb41a89b08210a1aa7f
+      internalID: 1799147573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_56
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 370
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e947936a36773479de1e6ac9edad54
+      internalID: 1540102996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_57
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 344
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df836b79bc6992d438e2f71f5016adf8
+      internalID: -1876279728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_58
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 335
+        width: 14
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087bfaa95830a4f44a7a7bf58d17a9b3
+      internalID: 1564085113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_59
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 310
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258f62f8da58a7446b82ddd8c282e171
+      internalID: 1479397029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_60
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 346
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467188d7295032b40997b0aba6ffecfc
+      internalID: 1162832812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_61
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 394
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203ad7ca46c64c9489476e7e786b66fa
+      internalID: -2093532063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_62
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 370
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8141b7bc3e971c047ab466b8ec186ce6
+      internalID: -1988436202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_63
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 335
+        width: 10
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a6dfba072aebf489aa8f4f4aacc3e2
+      internalID: 79098938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_64
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 309
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea120116ee73a3f4f9f78dba73b251a5
+      internalID: 1584350508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_65
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 358
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992732298a0be1c4886455176a690e48
+      internalID: 1263864619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_66
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 346
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209db71c0e03a4843b5733eb634e7569
+      internalID: -367119429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_67
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 351
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c2811d7bf2b444e9657ebe051f8f87
+      internalID: -1209376149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_68
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 302
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095aa7d00096f1d44a71c14c843e0121
+      internalID: -1776875924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_69
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 281
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0045cc4429d312747ab008a3000ea94f
+      internalID: -1381516823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_70
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 357
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbdee7ae8e15174cadce75414648454
+      internalID: 362778069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_71
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 344
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21960b816981eb428949e76a69d1c6b
+      internalID: 1927620366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_72
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 278
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44220552184d903469ad38abc4367946
+      internalID: -1846204169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_73
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 279
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d8ca23a229c27478de2fecd984f2a3
+      internalID: 1157919918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_74
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 299
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1f1a5cd6362e549881c1b6ba8c2288
+      internalID: 1282013912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_75
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 301
+        width: 86
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0f50e9e2332fd43ba8a6a421e7345d
+      internalID: 225384245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_76
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 270
+        width: 10
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97038f77a4a59634e83d4f3ff3f5a138
+      internalID: -1789604106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_77
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 270
+        width: 14
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273104248506b8c4b90700717cee40d4
+      internalID: -1274285958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_78
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 227
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aa887877bb5fa4588bd612a672749a
+      internalID: -1072471813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_79
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 289
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb6964d96b0d614486273504ccf15d9
+      internalID: 2046792475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_80
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 228
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f2e9d9c0f9c1c43963b111a6362056
+      internalID: -835136604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_81
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 301
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57aa5f45947d0114ab64b4f00f3276a7
+      internalID: -293026806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_82
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 288
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4a19598fe60b740be85c74449677ac
+      internalID: 1549333735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_83
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 267
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd7d924411b23f43b078cd9f0327bbe
+      internalID: 215409616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_84
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 260
+        width: 57
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f5df0a4e94ac149a120397abfe2ed6
+      internalID: 1812007937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_85
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 223
+        width: 22
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555cbbf5565e2a34ebc0939e85ca200c
+      internalID: -628360566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_86
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 226
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76467e2e283e3444aa87d85b80f0d64e
+      internalID: -763945461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 89
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c553802a96e9f3342b821d8885234ab7
+      internalID: -1582334129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_88
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 275
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66319346388aa674abd76eb02a833b15
+      internalID: -1884174219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_89
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 243
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e4735834780fb40bf0a28c7d3bbaf4
+      internalID: -146155936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_90
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 227
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01d9dc0645c0674384da0f183ee37b5
+      internalID: 1970340376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_91
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 215
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dbd68800ab56c46ae8e43b0bf287f3
+      internalID: -648022331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_92
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 215
+        width: 10
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbc066f43106c54c87a73ec9991e11b
+      internalID: 363490942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_93
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 262
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c18d45b6f5f74e4692cd53e69acdfdb
+      internalID: 1664404276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_94
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 198
+        width: 21
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ca1eadf7037d343939c219117e1322
+      internalID: 109484932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_95
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 223
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b652416788daa42b26bb4dd1fbbee9
+      internalID: -2031326190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_96
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 221
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453466e32fb50114b9c62aff37b6afc4
+      internalID: 1898400914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfaa17f8ce4c4a419ea48dfeaa0183c
+      internalID: -1759272950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_98
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 217
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497473455b4e18240a7ca5dae54669aa
+      internalID: -738087833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_99
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 211
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c4e3af761ceeb4e9c945dc7b09dcaf
+      internalID: -390263067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 178
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0fd5c9f2e3d8b47bbde536c24f477a
+      internalID: -393683261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_101
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 194
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e619507be9ad44ab8793e79d9a82ed
+      internalID: -960313957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_102
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 147
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3216029316ea780478c869215398716e
+      internalID: -916861728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_103
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 148
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4ca3db8ebc48746b7fb62ed9c856af
+      internalID: 1186605481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_104
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 158
+        width: 10
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351b434f24fe0c545875be287e5684f2
+      internalID: 976640003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_105
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 158
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202c71290c1babc41bd6ca2a0d261c95
+      internalID: 53977367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_106
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 158
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2611ecb074230034487e3fbae6394438
+      internalID: 1888494615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_107
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 158
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcbf5edbc3bb5c4ebe38fcf16332193
+      internalID: -1942739682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_108
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 158
+        width: 13
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e76040e450c1e8499e5ae2dee7c18bb
+      internalID: -500962142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_109
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 158
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f406b2d45bb032449ffdb6b2d2fd9fc
+      internalID: -1159149754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_110
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 177
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37ec4805e9997f478e9b8228074d63e
+      internalID: 1716112034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_111
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 205
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cabb6d70024b154082ef97810d08e80
+      internalID: 1940559742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_112
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 163
+        width: 78
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fee69346b4156e48853af0d53d1b5da
+      internalID: -1013930264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_113
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 164
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437bb9978ad5b7f48aae6410ddf9d209
+      internalID: 1706593657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_114
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 157
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a276c957424c65443896a45ea85fa431
+      internalID: -1516253085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_115
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 83
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04e4e1ba7c29594aa70a5b85237a283
+      internalID: -576933201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_116
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 146
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1962e4d8191f1488095583a1bcf5ca
+      internalID: 246785181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_117
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 99
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981f5d54ca72cf946996cdd53088e1c8
+      internalID: 569036916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_118
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 122
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f507b8ac0c0ff54d98f9f7c2a29fcbc
+      internalID: -2087763841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_119
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 129
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a09902315d50534892158501e0579f6
+      internalID: -1033534102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_120
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 128
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e81665c57725564fbbb43cbb65029cb
+      internalID: -1259639641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_121
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 86
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a253d23270b29fe4aaf486a7e83215fc
+      internalID: -75672511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_122
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 110
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72b6fbf14f3285469e36d5b9a7e00db
+      internalID: 1915249663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_123
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 108
+        width: 64
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17d6971ec89c9449ad29119c4931f4c
+      internalID: -1794437811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_124
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 95
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f63a1f37df07247b428a2a563db028
+      internalID: 1066192469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_125
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 101
+        width: 65
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26695aa3d81a1f46bcd7c28b4446446
+      internalID: 794719455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_126
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 100
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6e82c0b691ea04d9634859c2590845
+      internalID: 2129860180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_127
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b6e4d46d6d42c4987e5884ba905388
+      internalID: -311658782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_128
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 101
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d66872ce0faa846b72ad7377d06b65
+      internalID: 1229859713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_129
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 107
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434cf3988e0dcc24d9e170c3e2f41965
+      internalID: 653840611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_130
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 102
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c1d6ae83842f245852d4ac3491877c
+      internalID: 203340208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_131
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 83
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cab3f3d51cd4d4eab157916236bd26
+      internalID: 854160486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_132
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 28
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d930df37fa95346b5eb7102a494265
+      internalID: 1617030263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_133
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 19
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a9ece5164c5624a897881606153874
+      internalID: 420472621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_134
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 22
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cfb4e271548b2418dab8dbf4572afb
+      internalID: -324976242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_135
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 23
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0ac88963bd25c4db037360275ad22a
+      internalID: 1280774907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_136
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 29
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8eb557151bb8dc4abf96e958d38023d
+      internalID: -812997428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_137
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 35
+        width: 18
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c83280adc9d574ba7a92897989fbbb
+      internalID: 1085082466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_138
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 39
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce5bda3a361f934aaa0a1ce61b222c5
+      internalID: -2098364510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_139
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 44
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97c1dea49b1e244f965ac040401b277
+      internalID: -1206316962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_140
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 44
+        width: 12
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c55a51c85d32a43b25ad77d3504fd2
+      internalID: -226973162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_141
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 44
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4500bc8ec1fef884d82bdac5658154aa
+      internalID: -1527850329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_142
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 44
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2321ebf03fc0fc246b2596b1db3e3fdf
+      internalID: -1687255350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_143
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 44
+        width: 13
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50379d890ef57d4ca9209227ef4ae23
+      internalID: -1919220031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_144
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 44
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fbcc9bcc5f4c74b995a800e0f49ae1
+      internalID: -1881446546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_145
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 72
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf115b13e2d2864b8cf026f5d89fe5a
+      internalID: -946410471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_146
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 61
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a51fa4773c020941a36452b0020ec2e
+      internalID: -2063800190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_147
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 4
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b075cd059cc3a554bbe9cfef992b39cb
+      internalID: 687051560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_148
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 37
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1499ef390f50b46af8fab315f001fc
+      internalID: 289524183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_149
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfa1822897af53409400c44524886db
+      internalID: -1475980721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_150
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0178478d9382b6b479412bc4448f6dae
+      internalID: -1728585570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_151
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1
+        width: 10
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712ff70c5f18919438dfee3bd14a6a46
+      internalID: 1627111196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_152
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de54dd8977df8a43afe03fc0c1c196c
+      internalID: 654446837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_153
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 31
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235d2350672b1414d8b32c82315939f3
+      internalID: -409658146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_154
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b68a5a2f13e4b4ab84bc2e27824d5a
+      internalID: -1380888424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_155
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 16
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb629c173e394c469ebed58c9881d85
+      internalID: 1715272147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_156
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 13
+        width: 62
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76893029ae8cd9419ed480f433ce9fe
+      internalID: -2078960393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_157
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 3
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11229588c0ee6c2438ee102c13fffd5f
+      internalID: 1476117687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_158
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 4
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0da769f2a9888f4a89cb606ee4f9f54
+      internalID: -1274100599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_159
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1123c9a6023a14ca44b2c534460afe
+      internalID: -1494816823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_160
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 15
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f4843ee1eb4df4c89fb79416d41efd
+      internalID: -1363757072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_161
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21066aa555e41e048863c6a60b1039a3
+      internalID: -1059273393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_162
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 19
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d4a6d9d296c7e47b3ffb8ec37a7746
+      internalID: -214394520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_163
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 3
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1233b120b14a2894f94c2b74253fafed
+      internalID: 526749567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_164
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3
+        width: 62
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32697919f870d2f42a43ebb74176b7e3
+      internalID: -530465770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GJ_GameSheetGlow-hd_165
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2
+        width: 62
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd43dce6147a95479191647403aef7f
+      internalID: 1237302916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GJ_GameSheetGlow-hd_10: 1556421377
+      GJ_GameSheetGlow-hd_29: 1405858923
+      GJ_GameSheetGlow-hd_108: -500962142
+      GJ_GameSheetGlow-hd_70: 362778069
+      GJ_GameSheetGlow-hd_92: 363490942
+      GJ_GameSheetGlow-hd_4: 918286574
+      GJ_GameSheetGlow-hd_120: -1259639641
+      GJ_GameSheetGlow-hd_122: 1915249663
+      GJ_GameSheetGlow-hd_56: 1540102996
+      GJ_GameSheetGlow-hd_135: 1280774907
+      GJ_GameSheetGlow-hd_129: 653840611
+      GJ_GameSheetGlow-hd_126: 2129860180
+      GJ_GameSheetGlow-hd_133: 420472621
+      GJ_GameSheetGlow-hd_59: 1479397029
+      GJ_GameSheetGlow-hd_30: -215112070
+      GJ_GameSheetGlow-hd_49: 1950559284
+      GJ_GameSheetGlow-hd_117: 569036916
+      GJ_GameSheetGlow-hd_3: -1172733521
+      GJ_GameSheetGlow-hd_28: 487290341
+      GJ_GameSheetGlow-hd_12: 1314967351
+      GJ_GameSheetGlow-hd_77: -1274285958
+      GJ_GameSheetGlow-hd_19: -1647346787
+      GJ_GameSheetGlow-hd_65: 1263864619
+      GJ_GameSheetGlow-hd_143: -1919220031
+      GJ_GameSheetGlow-hd_102: -916861728
+      GJ_GameSheetGlow-hd_52: -1243760051
+      GJ_GameSheetGlow-hd_14: -582736026
+      GJ_GameSheetGlow-hd_140: -226973162
+      GJ_GameSheetGlow-hd_113: 1706593657
+      GJ_GameSheetGlow-hd_155: 1715272147
+      GJ_GameSheetGlow-hd_74: 1282013912
+      GJ_GameSheetGlow-hd_101: -960313957
+      GJ_GameSheetGlow-hd_91: -648022331
+      GJ_GameSheetGlow-hd_48: -1016140824
+      GJ_GameSheetGlow-hd_54: -498844147
+      GJ_GameSheetGlow-hd_27: 2071529568
+      GJ_GameSheetGlow-hd_44: -50391099
+      GJ_GameSheetGlow-hd_43: -378730593
+      GJ_GameSheetGlow-hd_112: -1013930264
+      GJ_GameSheetGlow-hd_131: 854160486
+      GJ_GameSheetGlow-hd_36: 2004764
+      GJ_GameSheetGlow-hd_121: -75672511
+      GJ_GameSheetGlow-hd_21: 475889550
+      GJ_GameSheetGlow-hd_164: -530465770
+      GJ_GameSheetGlow-hd_116: 246785181
+      GJ_GameSheetGlow-hd_24: 2054213095
+      GJ_GameSheetGlow-hd_55: 1799147573
+      GJ_GameSheetGlow-hd_150: -1728585570
+      GJ_GameSheetGlow-hd_156: -2078960393
+      GJ_GameSheetGlow-hd_127: -311658782
+      GJ_GameSheetGlow-hd_9: -1571794733
+      GJ_GameSheetGlow-hd_71: 1927620366
+      GJ_GameSheetGlow-hd_34: 1591615804
+      GJ_GameSheetGlow-hd_32: -32876750
+      GJ_GameSheetGlow-hd_100: -393683261
+      GJ_GameSheetGlow-hd_73: 1157919918
+      GJ_GameSheetGlow-hd_154: -1380888424
+      GJ_GameSheetGlow-hd_144: -1881446546
+      GJ_GameSheetGlow-hd_81: -293026806
+      GJ_GameSheetGlow-hd_13: 367593471
+      GJ_GameSheetGlow-hd_68: -1776875924
+      GJ_GameSheetGlow-hd_80: -835136604
+      GJ_GameSheetGlow-hd_114: -1516253085
+      GJ_GameSheetGlow-hd_1: 1028805955
+      GJ_GameSheetGlow-hd_85: -628360566
+      GJ_GameSheetGlow-hd_138: -2098364510
+      GJ_GameSheetGlow-hd_107: -1942739682
+      GJ_GameSheetGlow-hd_119: -1033534102
+      GJ_GameSheetGlow-hd_5: -1963212033
+      GJ_GameSheetGlow-hd_72: -1846204169
+      GJ_GameSheetGlow-hd_23: -1630248393
+      GJ_GameSheetGlow-hd_158: -1274100599
+      GJ_GameSheetGlow-hd_58: 1564085113
+      GJ_GameSheetGlow-hd_109: -1159149754
+      GJ_GameSheetGlow-hd_124: 1066192469
+      GJ_GameSheetGlow-hd_99: -390263067
+      GJ_GameSheetGlow-hd_125: 794719455
+      GJ_GameSheetGlow-hd_128: 1229859713
+      GJ_GameSheetGlow-hd_47: 1351695441
+      GJ_GameSheetGlow-hd_123: -1794437811
+      GJ_GameSheetGlow-hd_93: 1664404276
+      GJ_GameSheetGlow-hd_31: -731047380
+      GJ_GameSheetGlow-hd_110: 1716112034
+      GJ_GameSheetGlow-hd_152: 654446837
+      GJ_GameSheetGlow-hd_90: 1970340376
+      GJ_GameSheetGlow-hd_106: 1888494615
+      GJ_GameSheetGlow-hd_159: -1494816823
+      GJ_GameSheetGlow-hd_61: -2093532063
+      GJ_GameSheetGlow-hd_18: 1943658737
+      GJ_GameSheetGlow-hd_69: -1381516823
+      GJ_GameSheetGlow-hd_162: -214394520
+      GJ_GameSheetGlow-hd_15: -1241998782
+      GJ_GameSheetGlow-hd_45: 977099548
+      GJ_GameSheetGlow-hd_37: 659477984
+      GJ_GameSheetGlow-hd_142: -1687255350
+      GJ_GameSheetGlow-hd_11: 910190565
+      GJ_GameSheetGlow-hd_78: -1072471813
+      GJ_GameSheetGlow-hd_95: -2031326190
+      GJ_GameSheetGlow-hd_63: 79098938
+      GJ_GameSheetGlow-hd_79: 2046792475
+      GJ_GameSheetGlow-hd_82: 1549333735
+      GJ_GameSheetGlow-hd_132: 1617030263
+      GJ_GameSheetGlow-hd_111: 1940559742
+      GJ_GameSheetGlow-hd_16: 970698978
+      GJ_GameSheetGlow-hd_96: 1898400914
+      GJ_GameSheetGlow-hd_7: 1376507500
+      GJ_GameSheetGlow-hd_137: 1085082466
+      GJ_GameSheetGlow-hd_104: 976640003
+      GJ_GameSheetGlow-hd_148: 289524183
+      GJ_GameSheetGlow-hd_105: 53977367
+      GJ_GameSheetGlow-hd_22: -644335001
+      GJ_GameSheetGlow-hd_75: 225384245
+      GJ_GameSheetGlow-hd_39: 211545549
+      GJ_GameSheetGlow-hd_53: 1213531994
+      GJ_GameSheetGlow-hd_25: 396524281
+      GJ_GameSheetGlow-hd_97: -1759272950
+      GJ_GameSheetGlow-hd_115: -576933201
+      GJ_GameSheetGlow-hd_94: 109484932
+      GJ_GameSheetGlow-hd_64: 1584350508
+      GJ_GameSheetGlow-hd_84: 1812007937
+      GJ_GameSheetGlow-hd_41: -345174429
+      GJ_GameSheetGlow-hd_98: -738087833
+      GJ_GameSheetGlow-hd_8: 1631058881
+      GJ_GameSheetGlow-hd_2: 550111725
+      GJ_GameSheetGlow-hd_26: -1511907533
+      GJ_GameSheetGlow-hd_20: 873152674
+      GJ_GameSheetGlow-hd_160: -1363757072
+      GJ_GameSheetGlow-hd_33: 181824976
+      GJ_GameSheetGlow-hd_141: -1527850329
+      GJ_GameSheetGlow-hd_83: 215409616
+      GJ_GameSheetGlow-hd_46: -1764620846
+      GJ_GameSheetGlow-hd_118: -2087763841
+      GJ_GameSheetGlow-hd_35: -663550592
+      GJ_GameSheetGlow-hd_66: -367119429
+      GJ_GameSheetGlow-hd_87: -1582334129
+      GJ_GameSheetGlow-hd_163: 526749567
+      GJ_GameSheetGlow-hd_145: -946410471
+      GJ_GameSheetGlow-hd_130: 203340208
+      GJ_GameSheetGlow-hd_157: 1476117687
+      GJ_GameSheetGlow-hd_62: -1988436202
+      GJ_GameSheetGlow-hd_103: 1186605481
+      GJ_GameSheetGlow-hd_40: 1291801730
+      GJ_GameSheetGlow-hd_136: -812997428
+      GJ_GameSheetGlow-hd_89: -146155936
+      GJ_GameSheetGlow-hd_86: -763945461
+      GJ_GameSheetGlow-hd_38: 1736175954
+      GJ_GameSheetGlow-hd_146: -2063800190
+      GJ_GameSheetGlow-hd_149: -1475980721
+      GJ_GameSheetGlow-hd_76: -1789604106
+      GJ_GameSheetGlow-hd_50: 2019691095
+      GJ_GameSheetGlow-hd_17: 265755281
+      GJ_GameSheetGlow-hd_51: 1707012728
+      GJ_GameSheetGlow-hd_42: -331486628
+      GJ_GameSheetGlow-hd_151: 1627111196
+      GJ_GameSheetGlow-hd_67: -1209376149
+      GJ_GameSheetGlow-hd_139: -1206316962
+      GJ_GameSheetGlow-hd_153: -409658146
+      GJ_GameSheetGlow-hd_161: -1059273393
+      GJ_GameSheetGlow-hd_134: -324976242
+      GJ_GameSheetGlow-hd_57: -1876279728
+      GJ_GameSheetGlow-hd_60: 1162832812
+      GJ_GameSheetGlow-hd_147: 687051560
+      GJ_GameSheetGlow-hd_88: -1884174219
+      GJ_GameSheetGlow-hd_6: 62364907
+      GJ_GameSheetGlow-hd_0: 837084697
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

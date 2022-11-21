@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8556653581220035380}
   - component: {fileID: 8556653581220035339}
-  - component: {fileID: 8556653581220035336}
   - component: {fileID: 8556653581220035338}
+  - component: {fileID: 1460750400916669590}
   m_Layer: 0
   m_Name: smallSpike
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 8556653581220035381}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.68, y: -3.85, z: -0.05481451}
-  m_LocalScale: {x: 1.5, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0a9e704008ee6dc4287626044339e635, type: 3}
-  m_Color: {r: 0.827451, g: 0.8666667, b: 0.91764706, a: 1}
+  m_Sprite: {fileID: 970698978, guid: 39a7eec79c7198245b57ca07c688b3b3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -86,7 +86,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &8556653581220035336
+--- !u!114 &8556653581220035338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556653581220035381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223301b0df6d405468aae1eb8298412d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: d93aef5d0f921814f8251dcc4ce581dd, type: 3}
+--- !u!60 &1460750400916669590
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103,7 +116,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.6, y: 0.6}
+    oldSize: {x: 1.1612903, y: 0.7741935}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -111,32 +124,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.21, y: 0.28}
-      - {x: 0.19999999, y: 0.26999998}
-      - {x: 0.12, y: -0.099999994}
-      - {x: 0.06, y: 0.14}
-      - {x: 0.02, y: 0.16}
-      - {x: -0.02, y: 0.14999999}
-      - {x: -0.089999996, y: -0.03}
-      - {x: -0.12, y: 0}
-      - {x: -0.16, y: -0.01}
-      - {x: -0.21, y: 0.24}
-      - {x: -0.26999998, y: 0.26999998}
-      - {x: -0.29999998, y: 0.13}
-      - {x: -0.29999998, y: -0.29999998}
-      - {x: 0.29999998, y: -0.29999998}
-      - {x: 0.29999998, y: 0.14}
-      - {x: 0.25, y: 0.28}
---- !u!114 &8556653581220035338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8556653581220035381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 223301b0df6d405468aae1eb8298412d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: d93aef5d0f921814f8251dcc4ce581dd, type: 3}
+    - - {x: -0.048387095, y: 0.24193548}
+      - {x: -0.11290322, y: 0.19354838}
+      - {x: -0.32258064, y: 0}
+      - {x: -0.40322578, y: -0.11290322}
+      - {x: -0.41935483, y: -0.17741935}
+      - {x: -0.38709676, y: -0.20967741}
+      - {x: 0.40322578, y: -0.20967741}
+      - {x: 0.40322578, y: -0.11290322}
+      - {x: 0.032258064, y: 0.24193548}

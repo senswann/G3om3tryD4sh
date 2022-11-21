@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip[] playlist;
     public AudioSource audioSource;
     private int musicIndex = 0;
+    bool isPause = false;
 
     //variable d'instance du AudioManager
     public static AudioManager instance;
@@ -35,9 +36,22 @@ public class AudioManager : MonoBehaviour
     // si la music se fini on lance la prochaine
     void Update()
     {
-        if (!audioSource.isPlaying)
+        if (!audioSource.isPlaying && !isPause)
         {
             playNextSong();
+        }
+    }
+
+    public void PauseMusic()
+    {
+        isPause = !isPause;
+        if (isPause)
+        {
+            audioSource.Stop();
+        }
+        else
+        {
+            audioSource.Play();
         }
     }
 
@@ -61,7 +75,8 @@ public class AudioManager : MonoBehaviour
         Destroy(TempGO, sound.length);
         return audio;
     }
-
+    
+    //reset du son joué
     public void Reset()
     {
         audioSource.Stop();
