@@ -11,7 +11,8 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance;
     public AudioMixerGroup soundEffectMixer;
 
-    //permet de créer une instance unique de AudioManager appelable avec AudioManager.instance
+    //permet de crï¿½er une instance unique de AudioManager appelable avec AudioManager.instance
+    
     private void Awake()
     {
         if (instance != null)
