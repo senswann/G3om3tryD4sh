@@ -8,7 +8,6 @@ public class SwitchGameplay : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("test");
             collision.GetComponent<MovePlayer>().OnSheep();
         }
     }

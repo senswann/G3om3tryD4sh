@@ -15,7 +15,7 @@ public class AddCoins : MonoBehaviour
     {
         AudioManager.instance.PlayClipAt(sound , collision.transform.position);
         GetComponent<SpriteRenderer>().enabled = false;
-        GameManager.instance.coins++;
+        GameManager.instance.AddCoins();
         yield return new WaitForSeconds(2f);
         GetComponent<SpriteRenderer>().enabled = true;
     }

@@ -22,10 +22,6 @@ public class MovePlayer : MonoBehaviour
     public float groundCheckRadius;
     public LayerMask collisionLayers;
 
-    //variable stockant l'UI
-    GameObject ui;
-    bool isPause = false;
-
     //varible sheep
     public GameObject sheep;
     bool isSheep = false;
@@ -42,8 +38,6 @@ public class MovePlayer : MonoBehaviour
         animator = GetComponent<Animator>();
         //récupération du Transform du player
         transforms = GetComponent<Transform>();
-        ui = GameObject.FindGameObjectWithTag("UI");
-        ui.SetActive(isPause);
         sheep.SetActive(false);
     }
 
@@ -66,17 +60,6 @@ public class MovePlayer : MonoBehaviour
                 current_timer = 0;
             }
             onJump = true;
-        }
-    }
-
-    public void OnPause(InputAction.CallbackContext context)
-    {
-        if (context.started)
-        {
-            isPause = !isPause;
-            ui.SetActive(isPause);
-            AudioManager.instance.PauseMusic();
-            GameManager.instance.PauseGame(isPause);
         }
     }
 
@@ -110,29 +93,30 @@ public class MovePlayer : MonoBehaviour
             {
                 rb.gravityScale = 35;
                 verticalMovement = 1.5f;
+                transform.rotation = Quaternion.identity;
             }
 
             current_timer++;
-            if(current_timer <= 20)
-                transforms.Rotate(Vector3.forward * 100 * Time.fixedDeltaTime);
 
             // on réduit la vitesse du jump en fonction de la durée de l'animation
             if (current_timer > 20 && verticalMovement < 2.5f)
             {
                 verticalMovement += 0.05f;
+                transforms.Rotate(Vector3.forward * 300 * Time.deltaTime);
             }
         }
 
         if(isSheep && !onJump && isFall)
         {
-            if(current_timer <= 20)
-                transforms.Rotate(Vector3.back * 100 * Time.fixedDeltaTime);
+            if(current_timer == 0)
+                transform.rotation = Quaternion.identity;
 
             // on réduit la vitesse du jump en fonction de la durée de l'animation
             if (current_timer > 20 && verticalMovement >= 0f)
             {
                 rb.gravityScale = 55;
                 verticalMovement -= 0.1f;
+                transforms.Rotate(Vector3.back * 300 * Time.deltaTime);
             }
             current_timer++;
             // on désactive l'anim de jump ainsi que reset les différentes valeur laissant la gravité faire pour la déscante
@@ -142,6 +126,12 @@ public class MovePlayer : MonoBehaviour
                 verticalMovement = 0;
                 isFall = false;
             }
+        }
+        
+        if(isSheep && isGrounding)
+        {
+            isFall = false;
+            transform.rotation = Quaternion.identity;
         }
     }
 
@@ -163,7 +153,7 @@ public class MovePlayer : MonoBehaviour
             else
             {
                 // le player fait des backflip dans les aires
-                transforms.Rotate(Vector3.back * 100 * Time.fixedDeltaTime);
+                transforms.Rotate(Vector3.back * 300 * Time.fixedDeltaTime);
             }
         }
         //si le player est au sol et qu'il veut jump on active l'anim de jump

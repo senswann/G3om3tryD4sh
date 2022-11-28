@@ -20,6 +20,7 @@ public class DeathZone : MonoBehaviour
     {
         PlatformScript.speed = 0.0f;
         Scroller.speed = 0.0f;
+        collision.transform.rotation = Quaternion.identity;
         collision.GetComponent<BoxCollider2D>().enabled = false;
         collision.GetComponent<Rigidbody2D>().gravityScale = 0.0f;
         collision.GetComponent<MultipleLayerSprite>().Death();

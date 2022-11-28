@@ -1,4 +1,7 @@
+using System.Collections;
 using UnityEngine;
+using TMPro;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +12,13 @@ public class GameManager : MonoBehaviour
     private Vector3 startPosPlay;
     public int coins = 0;
     public int deathCount = 0;
+
+    //variable pour l'ui
+    public GameObject coinsCount;
+    public TextMeshProUGUI coinsText;
+    //variable stockant l'UI
+    GameObject ui;
+    bool isPause = false;
 
     //variable d'instance du GameManager
     public static GameManager instance;
@@ -26,6 +36,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        ui = GameObject.FindGameObjectWithTag("UI");
+        ui.SetActive(false);
+        coinsCount.SetActive(false);
         //récupération des coordonnées de début de la platforme
         startPosPlat = platform.transform.position;
         //récupération des coordonnées de début du player
@@ -43,8 +56,18 @@ public class GameManager : MonoBehaviour
         player.transform.rotation = Quaternion.identity;
     }
 
-    public void PauseGame(bool isPause)
+    public void OnPause(InputAction.CallbackContext context)
     {
+        if (context.started)
+        {
+            Pause();
+        }
+    }
+    public void Pause()
+    {
+        isPause = !isPause;
+        ui.SetActive(isPause);
+        AudioManager.instance.PauseMusic();
         if (isPause)
         {
             Time.timeScale = 0;
@@ -53,5 +76,19 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 1;
         }
+    }
+
+    public void AddCoins()
+    {
+        StartCoroutine(addCoins());
+    }
+
+    private IEnumerator addCoins()
+    {
+        coinsCount.SetActive(true);
+        coins++;
+        coinsText.text = "0" + coins + " x ";
+        yield return new WaitForSeconds(2f);
+        coinsCount.SetActive(false);
     }
 }

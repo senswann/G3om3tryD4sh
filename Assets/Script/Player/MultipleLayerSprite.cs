@@ -8,9 +8,10 @@ public class MultipleLayerSprite : MonoBehaviour
     [SerializeField] private SpriteRenderer first;
     [SerializeField] private SpriteRenderer second;
     [SerializeField] private SpriteRenderer third;
+    [SerializeField] private SpriteRenderer sheep;
 
     //variable utile pour le changement de skin
-    [SerializeField] private int index;
+    [SerializeField] public int index;
     [SerializeField] private Sprite[] skinFirst;
     [SerializeField] private Sprite[] skinSecond;
     [SerializeField] private Sprite[] skinThird;
@@ -23,11 +24,13 @@ public class MultipleLayerSprite : MonoBehaviour
     //variable pour l'animation du player
     private Animator animator;
     int indexAnim = 0;
+    int currentIndex;
 
     void Start()
     {
         // on commence avec un skin par default
         ChangeSprites(index);
+        currentIndex = index;
         //on récupère l'animator
         animator = GetComponent<Animator>();
     }
@@ -40,6 +43,16 @@ public class MultipleLayerSprite : MonoBehaviour
         third.sprite = skinThird[(_index-11<0?0:_index-11)];
     }
 
+    private void FixedUpdate()
+    {
+        if (index != currentIndex)
+        {
+            Debug.Log("test");
+            ChangeSprites(index);
+            currentIndex = index;
+        }
+    }
+
     //permet de gérer l'animation de mort du player
     public void Death()
     {
@@ -49,6 +62,7 @@ public class MultipleLayerSprite : MonoBehaviour
         player.enabled = false;
         second.enabled = false;
         third.enabled = false;
+        sheep.enabled = false;
         indexAnim = Random.Range(1, 10);
         animator.SetInteger("Death", indexAnim);
     }
@@ -61,7 +75,13 @@ public class MultipleLayerSprite : MonoBehaviour
         player.enabled = true;
         second.enabled = true;
         third.enabled = true;
+        sheep.enabled = true;
         indexAnim = 0;
         animator.SetInteger("Death", indexAnim);
+    }
+
+    public Sprite getFirstLayer(int _index)
+    {
+        return skinFirst[_index];
     }
 }
