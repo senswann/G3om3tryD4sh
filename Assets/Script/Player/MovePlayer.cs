@@ -71,7 +71,7 @@ public class MovePlayer : MonoBehaviour
         {
             sheep.SetActive(true);
             transform.rotation = Quaternion.identity;
-            groundCheck.position = new Vector3(playerPos.x, playerPos.y-0.5f, playerPos.z);
+            groundCheck.position = new Vector3(playerPos.x, playerPos.y, playerPos.z);
             transform.localScale = new Vector3(0.75f, 0.75f, 1);
             transform.position += new Vector3(0,1f,0f);
             rb.gravityScale = 35;
@@ -102,7 +102,7 @@ public class MovePlayer : MonoBehaviour
             if (current_timer > 20 && verticalMovement < 2.5f)
             {
                 verticalMovement += 0.05f;
-                transforms.Rotate(Vector3.forward * 300 * Time.deltaTime);
+                transforms.Rotate(Vector3.forward * 200 * Time.deltaTime);
             }
         }
 
@@ -116,7 +116,7 @@ public class MovePlayer : MonoBehaviour
             {
                 rb.gravityScale = 55;
                 verticalMovement -= 0.1f;
-                transforms.Rotate(Vector3.back * 300 * Time.deltaTime);
+                transforms.Rotate(Vector3.back * 200 * Time.deltaTime);
             }
             current_timer++;
             // on désactive l'anim de jump ainsi que reset les différentes valeur laissant la gravité faire pour la déscante
@@ -130,7 +130,6 @@ public class MovePlayer : MonoBehaviour
         
         if(isSheep && isGrounding)
         {
-            isFall = false;
             transform.rotation = Quaternion.identity;
         }
     }

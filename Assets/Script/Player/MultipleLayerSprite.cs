@@ -63,6 +63,7 @@ public class MultipleLayerSprite : MonoBehaviour
         second.enabled = false;
         third.enabled = false;
         sheep.enabled = false;
+        transform.rotation = Quaternion.identity;
         indexAnim = Random.Range(1, 10);
         animator.SetInteger("Death", indexAnim);
     }
