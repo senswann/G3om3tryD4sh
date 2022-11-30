@@ -33,15 +33,6 @@ public class AudioManager : MonoBehaviour
         audioSource.Play();
     }
 
-    // si la music se fini on lance la prochaine
-    void Update()
-    {
-        if (!audioSource.isPlaying && !isPause)
-        {
-            playNextSong();
-        }
-    }
-
     public void PauseMusic()
     {
         isPause = !isPause;
@@ -53,14 +44,6 @@ public class AudioManager : MonoBehaviour
         {
             audioSource.Play();
         }
-    }
-
-    // on recherche la prochaine music est on la joue
-    void playNextSong()
-    {
-        musicIndex = (musicIndex + 1) % playlist.Length;
-        audioSource.clip = playlist[musicIndex];
-        audioSource.Play();
     }
 
     //on joue un sound effect a une position données

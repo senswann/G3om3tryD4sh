@@ -19,7 +19,6 @@ public class MultipleLayerSprite : MonoBehaviour
     //variable utilisé pour le restart
     public GameObject lights;
     public PlayerInput player;
-    private Color currentColor;
 
     //variable pour l'animation du player
     private Animator animator;
@@ -39,8 +38,8 @@ public class MultipleLayerSprite : MonoBehaviour
     public void ChangeSprites(int _index)
     {
         first.sprite = skinFirst[_index];
-        second.sprite = skinSecond[_index-1<0?0:_index-1];
-        third.sprite = skinThird[(_index-11<0?0:_index-11)];
+        second.sprite = skinSecond[_index%skinSecond.Length];
+        third.sprite = skinThird[_index % skinThird.Length];
     }
 
     private void FixedUpdate()
@@ -56,8 +55,7 @@ public class MultipleLayerSprite : MonoBehaviour
     //permet de gérer l'animation de mort du player
     public void Death()
     {
-        currentColor = first.color;
-        first.color = Color.white;
+        first.enabled = false;
         lights.SetActive(false);
         player.enabled = false;
         second.enabled = false;
@@ -71,8 +69,8 @@ public class MultipleLayerSprite : MonoBehaviour
     // permet de gérer l'animation de revive du player
     public void Restart()
     {
-        first.color = currentColor;
-        lights.SetActive(true);
+        first.enabled = true;
+        lights.SetActive(true); 
         player.enabled = true;
         second.enabled = true;
         third.enabled = true;

@@ -9,7 +9,7 @@ public class LightFollow : MonoBehaviour
     private Vector3 velocity;
 
     // on set la position de la light a celle du joueur
-    void Update()
+    void FixedUpdate()
     {
         transform.position = Vector3.SmoothDamp(transform.position, target.transform.position + posOffset, ref velocity, timeOffset);
     }

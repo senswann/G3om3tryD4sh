@@ -8,9 +8,6 @@ using System.Linq;
 public class SettingMenu : MonoBehaviour
 {
     public AudioMixer audioMixer;
-    public TMP_Dropdown resolutionDropdown;
-
-    Resolution[] resolutions;
 
     public Slider musicSlider;
     public Slider effectSlider;
@@ -27,29 +24,6 @@ public class SettingMenu : MonoBehaviour
         audioMixer.GetFloat("SFX", out float effectValueForSlider);
         musicSlider.value = effectValueForSlider;
 
-        //on récupère la résolution de l'écran du joueur
-        resolutions = Screen.resolutions.Select(resolution => new Resolution { width = resolution.width, height = resolution.height }).Distinct().ToArray();
-        resolutionDropdown.ClearOptions();
-
-        //on créer une liste des différentes options de résolution
-        List<string> options = new List<string>();
-
-        int curentResolutionIndex = 0;
-        for (int i = 0; i < resolutions.Length; i++)
-        {
-            string option = resolutions[i].width + "x" + resolutions[i].height;
-            options.Add(option);
-
-            if (resolutions[i].width == Screen.width && resolutions[i].height == Screen.height)
-            {
-                curentResolutionIndex = i;
-            }
-        }
-        resolutionDropdown.AddOptions(options);
-        resolutionDropdown.value = curentResolutionIndex;
-        resolutionDropdown.RefreshShownValue();
-
-        //on force le jeu a se lancer en full screen
         Screen.fullScreen = true;
     }
 
@@ -66,16 +40,8 @@ public class SettingMenu : MonoBehaviour
     }
 
     //fonction permettant de passer en full screen
-    public void SetFullScreen(bool isFullScreen)
+    public void SetFullScreen()
     {
-        Screen.fullScreen = isFullScreen;
-    }
-
-
-    //fonction permettant de changer la résolution du jeu
-    public void SetResolution(int resolutionIndex)
-    {
-        Resolution resolution = resolutions[resolutionIndex];
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        Screen.fullScreen = !Screen.fullScreen;
     }
 }

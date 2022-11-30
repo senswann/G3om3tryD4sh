@@ -24,7 +24,7 @@ public class MovePlayer : MonoBehaviour
 
     //varible sheep
     public GameObject sheep;
-    bool isSheep = false;
+    public bool isSheep = false;
     bool isFall = false;
 
     //variable pour l'animation de rotation
@@ -75,17 +75,19 @@ public class MovePlayer : MonoBehaviour
             transform.localScale = new Vector3(0.75f, 0.75f, 1);
             transform.position += new Vector3(0,1f,0f);
             rb.gravityScale = 35;
+            groundCheckRadius=1f;
         }
         else
         {
             sheep.SetActive(false);
             groundCheck.position = new Vector3(playerPos.x, playerPos.y, playerPos.z);
             transform.localScale = new Vector3(1f,1f, 1);
-            rb.gravityScale = 55;
+            rb.gravityScale = 62;
+            groundCheckRadius=0.6f;
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (isSheep && onJump)
         {
@@ -102,7 +104,7 @@ public class MovePlayer : MonoBehaviour
             if (current_timer > 20 && verticalMovement < 2.5f)
             {
                 verticalMovement += 0.05f;
-                transforms.Rotate(Vector3.forward * 200 * Time.deltaTime);
+                transforms.Rotate(Vector3.forward * 200 * Time.fixedDeltaTime);
             }
         }
 
@@ -116,7 +118,7 @@ public class MovePlayer : MonoBehaviour
             {
                 rb.gravityScale = 55;
                 verticalMovement -= 0.1f;
-                transforms.Rotate(Vector3.back * 200 * Time.deltaTime);
+                transforms.Rotate(Vector3.back * 200 * Time.fixedDeltaTime);
             }
             current_timer++;
             // on désactive l'anim de jump ainsi que reset les différentes valeur laissant la gravité faire pour la déscante
@@ -132,10 +134,7 @@ public class MovePlayer : MonoBehaviour
         {
             transform.rotation = Quaternion.identity;
         }
-    }
 
-    private void FixedUpdate()
-    {
         //création d'un collider qui nous renverra si le player est au sol
         isGrounding = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
 
@@ -152,7 +151,7 @@ public class MovePlayer : MonoBehaviour
             else
             {
                 // le player fait des backflip dans les aires
-                transforms.Rotate(Vector3.back * 300 * Time.fixedDeltaTime);
+                transforms.Rotate(Vector3.back * 400 * Time.fixedDeltaTime);
             }
         }
         //si le player est au sol et qu'il veut jump on active l'anim de jump
