@@ -10,6 +10,7 @@ public class MovePlayer : MonoBehaviour
 
     //variable utile pour le déplacement du player
     public float speed = 5f;
+    public static float runSpeed = 11f;
     public float verticalMovement;
     bool onJump = false;
     bool onAnimJump = false;
@@ -63,6 +64,7 @@ public class MovePlayer : MonoBehaviour
         }
     }
 
+    //fonction permettant de gérer le changement de gameplay
     public void OnSheep()
     {
         isSheep = !isSheep;
@@ -89,6 +91,9 @@ public class MovePlayer : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //création d'un collider qui nous renverra si le player est au sol
+        isGrounding = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
+
         if (isSheep && onJump)
         {
             if (current_timer == 0)
@@ -135,9 +140,6 @@ public class MovePlayer : MonoBehaviour
             transform.rotation = Quaternion.identity;
         }
 
-        //création d'un collider qui nous renverra si le player est au sol
-        isGrounding = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
-
         //si le player est au sol
         if (!isSheep)
         {
@@ -183,6 +185,17 @@ public class MovePlayer : MonoBehaviour
         }
 
         //on gère le jump
-        rb.velocity = new Vector2(0, verticalMovement * speed);
+        rb.velocity = new Vector2(runSpeed, verticalMovement * speed);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Platform") && rb.gravityScale != 0)
+            rb.gravityScale = 0;            
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Platform") && rb.gravityScale != 64)
+            rb.gravityScale = 64;
     }
 }

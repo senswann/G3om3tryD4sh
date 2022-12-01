@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     public GameObject player;
     private Vector3 startPosPlat;
     private Vector3 startPosPlay;
+    public GameObject[] coinsObj;
+
+    //variable servant aux compteurs
     public int coins = 0;
     static int deathCount = 0;
 
@@ -52,6 +55,7 @@ public class GameManager : MonoBehaviour
     {
         if (ui != null)
         {
+            //on désactive l'UI inutile
             ui.SetActive(false);
             uiEnd.SetActive(false);
             deathAnim.SetTrigger("draw");
@@ -60,26 +64,28 @@ public class GameManager : MonoBehaviour
             startPosPlat = platform.transform.position;
             //récupération des coordonnées de début du player
             startPosPlay = player.transform.position;
+            //récupération de la coordonnées de fin de niveau
             worlMaxCoord = (int)wayponWorld.transform.position.x;
         }
     }
 
     private void FixedUpdate()
     {
+        //si la progress bar est bien assigné on commence le calcul de progression
         if (progressionSlider != null)
         {
             progressionSlider.value = (wayponWorld.transform.position.x + 4 - player.transform.position.x) * 100 / worlMaxCoord;
-            //Debug.Log((wayponWorld.transform.position.x+4-player.transform.position.x)*100/worlMaxCoord);
-            if(wayponWorld.transform.position.x + 4 <= player.transform.position.x)
-            {
+            //si le player dépasse le waypon de fin on appelle la fonction de fin de partie
+            if(wayponWorld.transform.position.x <= player.transform.position.x)
                 EndGame();
-            }
         }
     }
 
     //replacement du monde comme il était au début
     public void ReplaceWord()
     {
+        foreach (GameObject coin in coinsObj)
+            coin.SetActive(true);
         coins = 0;
         deathCount++;
         AudioManager.instance.Reset();
@@ -91,13 +97,14 @@ public class GameManager : MonoBehaviour
         deathAnim.SetTrigger("draw");
     }
 
+    //si on appuie sur la touche Tab on met en pause le jeu
     public void OnPause(InputAction.CallbackContext context)
     {
         if (context.started)
-        {
             Pause();
-        }
     }
+
+    //foncton activant l'ui de pause et mettant en pause le jeu
     public void Pause()
     {
         isPause = !isPause;
@@ -106,22 +113,27 @@ public class GameManager : MonoBehaviour
         Time.timeScale = (isPause ? 0 : 1);
     }
 
+    //fonction permettant l'ajout de piece
     public void AddCoins()
     {
+        //on lance la coroutine d'ajout de piece.
         StartCoroutine(addCoins());
     }
 
+    //fonction permettant de faire la transition entre les scenes.
     public void LoadTheGame(int index)
     {
-        Time.timeScale = 1;
         SceneManager.LoadScene(index);
+        Time.timeScale = 1;
     }
 
+    //fonction permettant de quitter le jeu
     public void StopGame()
     {
         Application.Quit();
     }
 
+    //fonction permettant de lancer la fin du niveau
     public void EndGame()
     {
         Time.timeScale = 0;
@@ -130,6 +142,7 @@ public class GameManager : MonoBehaviour
         uiEnd.SetActive(true);
     }
 
+    //coroutine qui ajoute une piece ainsi que fait apparaitre temporairement le compteur de piece
     private IEnumerator addCoins()
     {
         coinsCount.SetActive(true);

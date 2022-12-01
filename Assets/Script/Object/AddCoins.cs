@@ -1,23 +1,18 @@
-using System.Collections;
 using UnityEngine;
 
 public class AddCoins : MonoBehaviour
 {
+    //song jouer lorsqu'on ramasse une piece
     public AudioClip sound;
+    public GameObject selfObj;
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //si le joueur trigger la piece on start la coroutine d'ajout de piece
         if (collision.CompareTag("Player"))
         {
-            StartCoroutine(addCoins(collision));
+            AudioManager.instance.PlayClipAt(sound, collision.transform.position);
+            selfObj.SetActive(false);
+            GameManager.instance.AddCoins();
         }
     }
-    private IEnumerator addCoins(Collider2D collision)
-    {
-        AudioManager.instance.PlayClipAt(sound , collision.transform.position);
-        GetComponent<SpriteRenderer>().enabled = false;
-        GameManager.instance.AddCoins();
-        yield return new WaitForSeconds(2f);
-        GetComponent<SpriteRenderer>().enabled = true;
-    }
-
 }

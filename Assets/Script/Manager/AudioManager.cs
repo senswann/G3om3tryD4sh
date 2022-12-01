@@ -33,17 +33,14 @@ public class AudioManager : MonoBehaviour
         audioSource.Play();
     }
 
+    //fonction permettant de mettre en pause la music
     public void PauseMusic()
     {
         isPause = !isPause;
         if (isPause)
-        {
             audioSource.Stop();
-        }
         else
-        {
             audioSource.Play();
-        }
     }
 
     //on joue un sound effect a une position données

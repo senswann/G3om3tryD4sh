@@ -1,17 +1,17 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
-using TMPro;
-using System.Collections.Generic;
-using System.Linq;
 
 public class SettingMenu : MonoBehaviour
 {
+    //variable stockant l'audioMixer
     public AudioMixer audioMixer;
 
+    //variable des slider de son
     public Slider musicSlider;
     public Slider effectSlider;
 
+    //variable stockant l'UI du menu de skin
     public GameObject skinMenu;
 
     public void Start()

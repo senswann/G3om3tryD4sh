@@ -44,6 +44,7 @@ public class MultipleLayerSprite : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // on change de skin quand l'index change
         if (index != currentIndex)
         {
             Debug.Log("test");
@@ -79,6 +80,7 @@ public class MultipleLayerSprite : MonoBehaviour
         animator.SetInteger("Death", indexAnim);
     }
 
+    //fonction permettant de récupérer le skin utilisé par le premeir layyer
     public Sprite getFirstLayer(int _index)
     {
         return skinFirst[_index];
