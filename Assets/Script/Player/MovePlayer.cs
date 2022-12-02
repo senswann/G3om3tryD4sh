@@ -9,8 +9,8 @@ public class MovePlayer : MonoBehaviour
     Transform transforms;
 
     //variable utile pour le déplacement du player
-    public float speed = 5f;
-    public static float runSpeed = 11f;
+    public float speed = 6.75f;
+    public static float runSpeed = 10.5f;
     public float verticalMovement;
     bool onJump = false;
     bool onAnimJump = false;
@@ -74,7 +74,7 @@ public class MovePlayer : MonoBehaviour
             sheep.SetActive(true);
             transform.rotation = Quaternion.identity;
             groundCheck.position = new Vector3(playerPos.x, playerPos.y, playerPos.z);
-            transform.localScale = new Vector3(0.75f, 0.75f, 1);
+            transform.localScale = new Vector3(0.55f, 0.55f, 1);
             transform.position += new Vector3(0,1f,0f);
             rb.gravityScale = 35;
             groundCheckRadius=1f;
@@ -83,9 +83,9 @@ public class MovePlayer : MonoBehaviour
         {
             sheep.SetActive(false);
             groundCheck.position = new Vector3(playerPos.x, playerPos.y, playerPos.z);
-            transform.localScale = new Vector3(1f,1f, 1);
-            rb.gravityScale = 62;
-            groundCheckRadius=0.6f;
+            transform.localScale = new Vector3(0.8f,0.8f, 1);
+            rb.gravityScale = 65;
+            groundCheckRadius=0.8f;
         }
     }
 
@@ -101,29 +101,31 @@ public class MovePlayer : MonoBehaviour
                 rb.gravityScale = 35;
                 verticalMovement = 1.5f;
                 transform.rotation = Quaternion.identity;
+                transforms.Rotate(Vector3.forward * 400 * Time.fixedDeltaTime);
             }
 
             current_timer++;
 
             // on réduit la vitesse du jump en fonction de la durée de l'animation
-            if (current_timer > 20 && verticalMovement < 2.5f)
+            if (verticalMovement < 2f)
             {
-                verticalMovement += 0.05f;
-                transforms.Rotate(Vector3.forward * 200 * Time.fixedDeltaTime);
+                verticalMovement += 0.2f;
             }
         }
 
         if(isSheep && !onJump && isFall)
         {
             if(current_timer == 0)
+            {
                 transform.rotation = Quaternion.identity;
+                transforms.Rotate(Vector3.back * 400 * Time.fixedDeltaTime);
+            }
 
             // on réduit la vitesse du jump en fonction de la durée de l'animation
-            if (current_timer > 20 && verticalMovement >= 0f)
+            if (verticalMovement >= 0f)
             {
                 rb.gravityScale = 55;
-                verticalMovement -= 0.1f;
-                transforms.Rotate(Vector3.back * 200 * Time.fixedDeltaTime);
+                verticalMovement -= 0.2f;
             }
             current_timer++;
             // on désactive l'anim de jump ainsi que reset les différentes valeur laissant la gravité faire pour la déscante
@@ -133,11 +135,6 @@ public class MovePlayer : MonoBehaviour
                 verticalMovement = 0;
                 isFall = false;
             }
-        }
-        
-        if(isSheep && isGrounding)
-        {
-            transform.rotation = Quaternion.identity;
         }
 
         //si le player est au sol
@@ -190,12 +187,21 @@ public class MovePlayer : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platform") && rb.gravityScale != 0)
+        {
+            if(isSheep)
+                transform.rotation = Quaternion.identity;
             rb.gravityScale = 0;            
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platform") && rb.gravityScale != 64)
-            rb.gravityScale = 64;
+        {
+            if (isSheep)
+                rb.gravityScale = 35;
+            else
+                rb.gravityScale = 65;
+        }
     }
 }

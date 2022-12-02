@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class SkinMenu : MonoBehaviour
 {
     //variable gérant l'UI du menu
-    bool isActive = false;
+    public bool isActive = false;
     public GameObject setting;
     public Image skin;
     public GameObject player;

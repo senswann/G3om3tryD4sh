@@ -8,9 +8,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     //variable permettant le replacement du monde
-    public GameObject platform;
     public GameObject player;
-    private Vector3 startPosPlat;
     private Vector3 startPosPlay;
     public GameObject[] coinsObj;
 
@@ -32,6 +30,7 @@ public class GameManager : MonoBehaviour
 
     //variable stockant l'UI
     public GameObject ui;
+    public SkinMenu uiSkin;
     bool isPause = false;
     public GameObject uiEnd;
     public TextMeshProUGUI coinsCountEnd;
@@ -60,8 +59,6 @@ public class GameManager : MonoBehaviour
             uiEnd.SetActive(false);
             deathAnim.SetTrigger("draw");
             coinsCount.SetActive(false);
-            //récupération des coordonnées de début de la platforme
-            startPosPlat = platform.transform.position;
             //récupération des coordonnées de début du player
             startPosPlay = player.transform.position;
             //récupération de la coordonnées de fin de niveau
@@ -81,22 +78,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    //replacement du monde comme il était au début
-    public void ReplaceWord()
-    {
-        foreach (GameObject coin in coinsObj)
-            coin.SetActive(true);
-        coins = 0;
-        deathCount++;
-        AudioManager.instance.Reset();
-        platform.transform.position = startPosPlat;
-        player.transform.position = startPosPlay;
-        player.transform.rotation = Quaternion.identity;
-        CameraS.instance.ResetCam();
-        deathCountText.text = "Attempt " + deathCount;
-        deathAnim.SetTrigger("draw");
-    }
-
     //si on appuie sur la touche Tab on met en pause le jeu
     public void OnPause(InputAction.CallbackContext context)
     {
@@ -107,6 +88,8 @@ public class GameManager : MonoBehaviour
     //foncton activant l'ui de pause et mettant en pause le jeu
     public void Pause()
     {
+        if (uiSkin.isActive)
+            uiSkin.ActiveSetting();
         isPause = !isPause;
         ui.SetActive(isPause);
         AudioManager.instance.PauseMusic();
@@ -150,5 +133,45 @@ public class GameManager : MonoBehaviour
         coinsText.text = "0" + coins + " x ";
         yield return new WaitForSeconds(2f);
         coinsCount.SetActive(false);
+    }
+
+    //avec cette coroutine on arrete de bouger le Monde, on lance le SFX ainsi que l'animation de mort, puis on replace tout comme au début et on recommence
+    public IEnumerator ReplaceWorld(AudioClip sound)
+    {
+        //varaiable temporaire pour cette coroutine
+        Rigidbody2D rbPlayer = player.GetComponent<Rigidbody2D>();
+        MultipleLayerSprite multiLayerPlayer = player.GetComponent<MultipleLayerSprite>();
+        MovePlayer movePlayer = player.GetComponent<MovePlayer>();
+        BoxCollider2D boxColliderPlayer = player.GetComponent<BoxCollider2D>();
+
+        //on commence par enlever la possibilité de bouger
+        MovePlayer.runSpeed = 0.0f;
+        Scroller.speed = 0.0f;
+        boxColliderPlayer.enabled = false;
+        rbPlayer.gravityScale = 0.0f;
+        multiLayerPlayer.Death();
+        AudioManager.instance.PlayClipAt(sound, player.transform.position);
+
+        //on attend 1 seconde
+        yield return new WaitForSeconds(1f);
+
+        //puis on remet le monde dans son état initial
+        if (movePlayer.isSheep)
+            movePlayer.OnSheep();
+        boxColliderPlayer.enabled = true;
+        multiLayerPlayer.Restart();
+        foreach (GameObject coin in coinsObj)
+            coin.SetActive(true);
+        coins = 0;
+        deathCount++;
+        AudioManager.instance.Reset();
+        player.transform.position = startPosPlay;
+        player.transform.rotation = Quaternion.identity;
+        CameraS.instance.ResetCam();
+        deathCountText.text = "Attempt " + deathCount;
+        deathAnim.SetTrigger("draw");
+        rbPlayer.gravityScale = 65;
+        MovePlayer.runSpeed = 11.0f;
+        Scroller.speed = 0.15f;
     }
 }

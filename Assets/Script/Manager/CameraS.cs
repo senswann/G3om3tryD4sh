@@ -52,7 +52,15 @@ public class CameraS : MonoBehaviour
     //fonction permettant de remttre l'offset de depart
     public void ResetCam()
     {
+        Camera.main.orthographicSize = 5f;
         posOffset = startPosOffset;
+    }
+
+    public void setCamera(Vector3 _posOffset,float _profondeur)
+    {
+        Camera.main.orthographicSize = _profondeur;
+        posOffset = _posOffset;
+        
     }
 
 }
