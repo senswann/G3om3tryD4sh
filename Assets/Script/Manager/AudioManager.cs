@@ -33,6 +33,23 @@ public class AudioManager : MonoBehaviour
         audioSource.Play();
     }
 
+    // si la music se fini on lance la prochaine
+    void FixedUpdate()
+    {
+        if (!audioSource.isPlaying)
+        {
+            playNextSong();
+        }
+    }
+
+    // on recherche la prochaine music est on la joue
+    void playNextSong()
+    {
+        musicIndex = (musicIndex + 1) % playlist.Length;
+        audioSource.clip = playlist[musicIndex];
+        audioSource.Play();
+    }
+
     //fonction permettant de mettre en pause la music
     public void PauseMusic()
     {
