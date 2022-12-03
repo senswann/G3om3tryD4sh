@@ -68,12 +68,13 @@ public class MovePlayer : MonoBehaviour
     public void OnSheep()
     {
         isSheep = !isSheep;
+        transform.rotation = Quaternion.identity;
         Vector3 playerPos = gameObject.transform.position;
+        groundCheck.position = new Vector3(playerPos.x, playerPos.y, playerPos.z);
+
         if (isSheep)
         {
             sheep.SetActive(true);
-            transform.rotation = Quaternion.identity;
-            groundCheck.position = new Vector3(playerPos.x, playerPos.y, playerPos.z);
             transform.localScale = new Vector3(0.55f, 0.55f, 1);
             transform.position += new Vector3(0,1f,0f);
             rb.gravityScale = 35;
@@ -82,7 +83,6 @@ public class MovePlayer : MonoBehaviour
         else
         {
             sheep.SetActive(false);
-            groundCheck.position = new Vector3(playerPos.x, playerPos.y, playerPos.z);
             transform.localScale = new Vector3(0.8f,0.8f, 1);
             rb.gravityScale = 65;
             groundCheckRadius=0.8f;

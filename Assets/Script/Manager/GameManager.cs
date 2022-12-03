@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI coinsText;
     public TextMeshProUGUI deathCountText;
     public Animator deathAnim;
+    public GameObject fpsCount;
 
     //variable stockant l'UI
     public GameObject ui;
@@ -35,6 +36,9 @@ public class GameManager : MonoBehaviour
     public GameObject uiEnd;
     public TextMeshProUGUI coinsCountEnd;
     public TextMeshProUGUI Attempt;
+
+    //variable sus
+    private bool isAlternative;
 
     //variable d'instance du GameManager
     public static GameManager instance;
@@ -91,6 +95,7 @@ public class GameManager : MonoBehaviour
         if (uiSkin.isActive)
             uiSkin.ActiveSetting();
         isPause = !isPause;
+        fpsCount.SetActive(!isPause);
         ui.SetActive(isPause);
         AudioManager.instance.PauseMusic();
         Time.timeScale = (isPause ? 0 : 1);
@@ -136,7 +141,7 @@ public class GameManager : MonoBehaviour
     }
 
     //avec cette coroutine on arrete de bouger le Monde, on lance le SFX ainsi que l'animation de mort, puis on replace tout comme au début et on recommence
-    public IEnumerator ReplaceWorld(AudioClip sound)
+    public IEnumerator ReplaceWorld(bool _isAlternative)
     {
         //varaiable temporaire pour cette coroutine
         Rigidbody2D rbPlayer = player.GetComponent<Rigidbody2D>();
@@ -150,11 +155,15 @@ public class GameManager : MonoBehaviour
         boxColliderPlayer.enabled = false;
         rbPlayer.gravityScale = 0.0f;
         multiLayerPlayer.Death();
-        AudioManager.instance.PlayClipAt(sound, player.transform.position);
 
         //on attend 1 seconde
         yield return new WaitForSeconds(1f);
 
+        if (_isAlternative)
+        {
+            isAlternative = !isAlternative;
+            AudioManager.instance.playNextSong();
+        }
         //puis on remet le monde dans son état initial
         if (movePlayer.isSheep)
             movePlayer.OnSheep();
@@ -173,5 +182,9 @@ public class GameManager : MonoBehaviour
         rbPlayer.gravityScale = 65;
         MovePlayer.runSpeed = 11.0f;
         Scroller.speed = 0.15f;
+        if (isAlternative)
+        {
+            Scroller.speed = 0.45f;
+        }
     }
 }

@@ -36,7 +36,7 @@ public class SettingMenu : MonoBehaviour
     //fonction permettant de changer le volume des sound effect
     public void SetSoundEffect(float volume)
     {
-        audioMixer.SetFloat("SoundEffect", volume);
+        audioMixer.SetFloat("SFX", volume);
     }
 
     //fonction permettant de passer en full screen

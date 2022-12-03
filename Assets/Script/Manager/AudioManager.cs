@@ -33,17 +33,8 @@ public class AudioManager : MonoBehaviour
         audioSource.Play();
     }
 
-    // si la music se fini on lance la prochaine
-    void FixedUpdate()
-    {
-        if (!audioSource.isPlaying)
-        {
-            playNextSong();
-        }
-    }
-
     // on recherche la prochaine music est on la joue
-    void playNextSong()
+    public void playNextSong()
     {
         musicIndex = (musicIndex + 1) % playlist.Length;
         audioSource.clip = playlist[musicIndex];
@@ -55,9 +46,9 @@ public class AudioManager : MonoBehaviour
     {
         isPause = !isPause;
         if (isPause)
-            audioSource.Stop();
+            audioSource.Pause();
         else
-            audioSource.Play();
+            audioSource.UnPause();
     }
 
     //on joue un sound effect a une position données
@@ -78,5 +69,11 @@ public class AudioManager : MonoBehaviour
     {
         audioSource.Stop();
         audioSource.Play();
+    }
+
+    public void ChangeSong()
+    {
+        GameManager.instance.Pause();
+        StartCoroutine(GameManager.instance.ReplaceWorld(true));
     }
 }

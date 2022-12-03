@@ -10,6 +10,9 @@ public class DeathZone : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") || collision.CompareTag("Sheep"))
-            StartCoroutine(GameManager.instance.ReplaceWorld(sound));
+        {
+            AudioManager.instance.PlayClipAt(sound, collision.transform.position);
+            StartCoroutine(GameManager.instance.ReplaceWorld(false));
+        }
     }
 }
