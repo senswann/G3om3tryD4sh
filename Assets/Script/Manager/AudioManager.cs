@@ -71,6 +71,7 @@ public class AudioManager : MonoBehaviour
         audioSource.Play();
     }
 
+    //permet de changer le son du jeu et recommencer
     public void ChangeSong()
     {
         GameManager.instance.Pause();

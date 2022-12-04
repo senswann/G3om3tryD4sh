@@ -161,6 +161,7 @@ public class GameManager : MonoBehaviour
 
         if (_isAlternative)
         {
+            deathCount = -1;
             isAlternative = !isAlternative;
             AudioManager.instance.playNextSong();
         }
@@ -183,8 +184,6 @@ public class GameManager : MonoBehaviour
         MovePlayer.runSpeed = 11.0f;
         Scroller.speed = 0.15f;
         if (isAlternative)
-        {
             Scroller.speed = 0.45f;
-        }
     }
 }
