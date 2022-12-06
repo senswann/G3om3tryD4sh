@@ -125,6 +125,7 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         Time.timeScale = 0;
+        AudioManager.instance.PauseMusic();
         coinsCountEnd.text = "0" + coins + " x ";
         Attempt.text = "Attempt " + deathCount;
         uiEnd.SetActive(true);
